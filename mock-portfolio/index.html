@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>tailwind</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="main w-full h-screen bg-white font-['Neue_Machina']">
+      <div class="container relative h-screen mx-auto">
+        <div class="navbar w-full py-4 px-4 flex justify-between items-center">
+          <h3 class="text-xl font-semibold">neganou.design</h3>
+          <div class="hidden links lg:flex gap-10">
+            <a class="text-xl opacity-100" href="#">Works</a>
+            <a class="text-xl opacity-50" href="#">Service</a>
+            <a class="text-xl opacity-50" href="#">Contact</a>
+            <a class="text-xl opacity-50" href="#">Pricing</a>
+          </div>
+          <i class="ri-menu-line lg:hidden"></i>
+        </div>             
+        <div class="absolute top-1/2 left-1/2 -translate-x-[50%] -translate-y-[50%] w-full flex flex-col items-center mt-16">
+          <div
+            class="image w-24 h-24 rounded-full bg-amber-700 flex items-center justify-center pl-1.5"
+          >
+            <img class="w-16" src="emojisky.com-107479.png" alt="" />
+          </div> 
+          <h3 class="font-semibold text-xl mt-4">Hi,I'm Somil👋🏻</h3>
+          <h1 class="w-2/3 text-3xl leading-9 tracking-tighter mt-3 font-semibold text-center font-[poppins]">Building digital products, brands, and experiences.</h1>
+          <p class="text-center text-xl w-3/4 xl:w-2/5 font-medium mt-4">a <span class="font-bold">Product Designer</span> and <span class="font-bold">Visual Developer</span> in SF. I specialize in UI/UX Design, Responsive Web Design, and Visual Development.</p>
+          <button class="text-xs uppercase mt-8 bg-black text-white h-15 w-30 px-8 py-4 rounded-full">Connect with me</button>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
